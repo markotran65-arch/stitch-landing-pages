@@ -1,3 +1,316 @@
 <!DOCTYPE html>
+
 <html class="dark" lang="vi"><head>
-... (omitting content in thought, but I will provide the whole content in tool call)
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Academic Luminary | Chuyên Gia Giáo Dục Cao Cấp</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600&amp;family=Manrope:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error": "#ffb4ab",
+              "secondary-fixed-dim": "#bcc7de",
+              "tertiary-fixed-dim": "#e9c400",
+              "on-secondary-fixed-variant": "#3c475a",
+              "surface-container-lowest": "#0e0e0e",
+              "on-primary-container": "#008e9f",
+              "primary": "#00daf3",
+              "secondary": "#bcc7de",
+              "on-primary-fixed": "#001f24",
+              "surface-container-highest": "#353534",
+              "on-surface-variant": "#c6c6cd",
+              "error-container": "#93000a",
+              "surface-dim": "#131313",
+              "on-tertiary-fixed-variant": "#544600",
+              "inverse-surface": "#e5e2e1",
+              "outline": "#909097",
+              "secondary-fixed": "#d8e3fb",
+              "on-tertiary-fixed": "#221b00",
+              "primary-fixed": "#9cf0ff",
+              "primary-container": "#001b1f",
+              "surface": "#131313",
+              "tertiary": "#e9c400",
+              "surface-container": "#201f1f",
+              "inverse-on-surface": "#313030",
+              "on-secondary-container": "#aeb9d0",
+              "on-primary": "#00363d",
+              "surface-variant": "#353534",
+              "primary-fixed-dim": "#00daf3",
+              "surface-tint": "#00daf3",
+              "on-secondary-fixed": "#111c2d",
+              "surface-bright": "#3a3939",
+              "on-tertiary": "#3a3000",
+              "on-primary-fixed-variant": "#004f58",
+              "surface-container-high": "#2a2a2a",
+              "tertiary-container": "#c9a900",
+              "on-error": "#690005",
+              "on-tertiary-container": "#4c3f00",
+              "on-surface": "#e5e2e1",
+              "secondary-container": "#3e495d",
+              "on-error-container": "#ffdad6",
+              "on-secondary": "#263143",
+              "inverse-primary": "#006875",
+              "outline-variant": "#45464d",
+              "tertiary-fixed": "#ffe16d",
+              "surface-container-low": "#1c1b1b",
+              "background": "#131313",
+              "on-background": "#e5e2e1"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glow-border {
+            border: 1px solid rgba(0, 218, 243, 0.4);
+        }
+        .glass-card {
+            background: rgba(53, 53, 52, 0.4);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary/30">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-slate-950/60 backdrop-blur-xl shadow-[0_0_20px_rgba(0,218,243,0.06)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-6">
+<div class="text-2xl font-serif italic text-slate-100">Academic Luminary</div>
+<div class="hidden md:flex gap-10 items-center">
+<a class="text-slate-400 hover:text-slate-100 transition-colors font-label text-xs uppercase tracking-widest" href="#expertise">Expertise</a>
+<a class="text-cyan-400 border-b border-cyan-400/40 pb-1 font-label text-xs uppercase tracking-widest" href="#narrative">Narrative</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors font-label text-xs uppercase tracking-widest" href="#services">Services</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors font-label text-xs uppercase tracking-widest" href="#portfolio">Portfolio</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors font-label text-xs uppercase tracking-widest" href="#contact">Contact</a>
+<button class="glow-border px-6 py-2 rounded-lg font-label text-xs uppercase tracking-widest text-primary hover:bg-primary/10 transition-all duration-300">
+                    Consultation
+                </button>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary">menu</span>
+</div>
+</div>
+</nav>
+<main>
+<!-- Section 1: Hero -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-tertiary/5 rounded-full blur-[100px]"></div>
+</div>
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-12 gap-12 items-center relative z-10">
+<div class="md:col-span-7">
+<div class="inline-block py-1 px-3 mb-6 bg-secondary-container/30 rounded-full border border-outline-variant/20">
+<span class="font-label text-[10px] uppercase tracking-[0.2em] text-tertiary">25 Years of Educational Excellence</span>
+</div>
+<h1 class="font-headline text-5xl md:text-7xl leading-tight tracking-tight mb-8">
+                        Kiến tạo <span class="italic text-primary">Tương lai</span> <br/>từ nền tảng Tri thức.
+                    </h1>
+<p class="text-on-surface-variant text-lg max-w-xl mb-10 leading-relaxed">
+                        Hơn hai thập kỷ định hình các tiêu chuẩn giáo dục toàn cầu, mang lại sự chuyển đổi sâu sắc cho các tổ chức và cá nhân thông qua tư duy chiến lược và sư phạm đột phá.
+                    </p>
+<div class="flex gap-6">
+<button class="bg-primary-container border border-primary/40 text-primary px-8 py-4 rounded-xl font-label text-sm uppercase tracking-widest hover:bg-primary hover:text-on-primary transition-all">Khám phá dịch vụ</button>
+<button class="text-on-surface border-b border-outline-variant/40 px-2 py-4 font-label text-sm uppercase tracking-widest hover:text-primary transition-all">Hồ sơ năng lực</button>
+</div>
+</div>
+<div class="md:col-span-5 relative flex justify-center">
+<div class="relative w-80 h-96 md:w-96 md:h-[32rem]">
+<div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full scale-75 -z-10"></div>
+<img alt="Professional Portrait" class="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" data-alt="Portrait of a senior education expert with lighting highlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDZJie0qkkVqGYiNu3kMYP1Ybc0xLXd0uI3jdvxxt5SM0a7UiVErwYWHki6JZnuLXdbPd3IPDajgwecgKLix2c-UV4bkwYM5MFLRCli6PVCF-pEKsuvGrYrCHuG2g9nnznsiA3IkRCbBBzIULN9E98hPXBcAldssD0NDQ9P01-p0syBca5RgMlsaXC-A8B78QRgCh8TPhLjv4ZABjU7L7GH6v5F9CqgFkex4NCldB8Xqy_GEquEj_cEhR5pcOMjKvVgLPiF6Ke6Z8"/>
+<div class="absolute -bottom-6 -left-6 glass-card p-6 rounded-xl border border-outline-variant/20">
+<div class="text-tertiary font-headline text-4xl">25+</div>
+<div class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Năm Kinh Nghiệm</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Narrative (About Me) -->
+<section class="py-32 bg-surface-container-low relative" id="narrative">
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-20">
+<div>
+<span class="font-label text-xs uppercase tracking-[0.3em] text-primary block mb-4">Hành Trình &amp; Tầm Nhìn</span>
+<h2 class="font-headline text-4xl mb-8">Người Dẫn Đường Trong Kỷ Nguyên Số</h2>
+<div class="space-y-6 text-on-surface-variant leading-relaxed">
+<p>Với 25 năm cống hiến trong ngành giáo dục, tôi đã chứng kiến và trực tiếp tham gia vào những bước chuyển mình quan trọng nhất của hệ thống đào tạo. Từ những bục giảng truyền thống đến các hệ sinh thái học tập số hóa hiện đại.</p>
+<p>Vai trò của tôi không chỉ là một nhà giáo, mà là một chiến lược gia giáo dục, tập trung vào việc tối ưu hóa tiềm năng con người thông qua các phương pháp giảng dạy lấy người học làm trung tâm và tích hợp công nghệ một cách thông minh.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-8">
+<div class="p-8 surface-container-highest rounded-xl border-l-2 border-primary">
+<h4 class="font-headline text-xl mb-2 text-on-surface">Lãnh Đạo Chiến Lược</h4>
+<p class="text-sm text-on-surface-variant">Xây dựng tầm nhìn dài hạn cho các trường đại học quốc tế và tổ chức phi lợi nhuận.</p>
+</div>
+<div class="p-8 surface-container-highest rounded-xl border-l-2 border-tertiary">
+<h4 class="font-headline text-xl mb-2 text-on-surface">Đổi Mới Sư Phạm</h4>
+<p class="text-sm text-on-surface-variant">Thiết kế khung chương trình giảng dạy thích ứng với sự thay đổi của thị trường lao động 4.0.</p>
+</div>
+<div class="p-8 surface-container-highest rounded-xl border-l-2 border-primary">
+<h4 class="font-headline text-xl mb-2 text-on-surface">Cố Vấn Cấp Cao</h4>
+<p class="text-sm text-on-surface-variant">Đồng hành cùng các nhà quản lý giáo dục trong việc nâng cao chất lượng vận hành.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Services -->
+<section class="py-32" id="services">
+<div class="max-w-7xl mx-auto px-8 text-center mb-20">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-tertiary mb-4 block">Giải Pháp Chuyên Biệt</span>
+<h2 class="font-headline text-4xl md:text-5xl">Dịch Vụ Tư Vấn</h2>
+</div>
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="glass-card p-10 rounded-2xl border border-primary/20 group hover:bg-primary/5 transition-all duration-500">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block">school</span>
+<h3 class="font-headline text-2xl mb-4 group-hover:text-primary transition-colors">Tư Vấn Giáo Dục</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">Phát triển chiến lược tuyển sinh, nâng hạng trường học và xây dựng văn hóa học thuật bền vững.</p>
+<ul class="space-y-3 text-xs font-label uppercase tracking-wider text-on-surface/60">
+<li class="flex items-center gap-2"><span class="w-1 h-1 bg-primary rounded-full"></span> Kiểm định chất lượng</li>
+<li class="flex items-center gap-2"><span class="w-1 h-1 bg-primary rounded-full"></span> Chiến lược thương hiệu</li>
+</ul>
+</div>
+<!-- Card 2 -->
+<div class="glass-card p-10 rounded-2xl border border-primary/20 group hover:bg-primary/5 transition-all duration-500">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block">groups</span>
+<h3 class="font-headline text-2xl mb-4 group-hover:text-primary transition-colors">Điều Phối Workshop</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">Các khóa đào tạo chuyên sâu về kỹ năng lãnh đạo, tư duy thiết kế trong giáo dục dành cho giảng viên.</p>
+<ul class="space-y-3 text-xs font-label uppercase tracking-wider text-on-surface/60">
+<li class="flex items-center gap-2"><span class="w-1 h-1 bg-primary rounded-full"></span> Kỹ năng giảng dạy số</li>
+<li class="flex items-center gap-2"><span class="w-1 h-1 bg-primary rounded-full"></span> Quản lý thay đổi</li>
+</ul>
+</div>
+<!-- Card 3 -->
+<div class="glass-card p-10 rounded-2xl border border-primary/20 group hover:bg-primary/5 transition-all duration-500">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block">history_edu</span>
+<h3 class="font-headline text-2xl mb-4 group-hover:text-primary transition-colors">Thiết Kế Chương Trình</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">Xây dựng lộ trình học tập tối ưu, kết hợp giữa lý thuyết hàn lâm và trải nghiệm thực tiễn.</p>
+<ul class="space-y-3 text-xs font-label uppercase tracking-wider text-on-surface/60">
+<li class="flex items-center gap-2"><span class="w-1 h-1 bg-primary rounded-full"></span> Blended Learning</li>
+<li class="flex items-center gap-2"><span class="w-1 h-1 bg-primary rounded-full"></span> Đánh giá năng lực</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Section 4: Portfolio (Bento Grid Style) -->
+<section class="py-32 bg-surface-container-lowest" id="portfolio">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex justify-between items-end mb-16">
+<div>
+<span class="font-label text-xs uppercase tracking-[0.3em] text-primary mb-4 block">Dự Án &amp; Ấn Phẩm</span>
+<h2 class="font-headline text-4xl">Hồ Sơ Năng Lực</h2>
+</div>
+<a class="text-sm font-label uppercase tracking-widest text-on-surface-variant hover:text-primary border-b border-outline-variant pb-1" href="#">Xem tất cả dự án</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 group relative overflow-hidden rounded-2xl aspect-video md:aspect-auto h-[400px]">
+<img alt="University Strategy Project" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Modern university campus with digital integration overlays" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCM4oGhdaKVIqKoSoCA06Wyqh3MGiHRhrm2qG1BW9I_yz2dcOYdDesMHLXpe-DWPBhSKvboW6R0sXDasT7ngIqYKiVD9kUCCotYvuNrrKOB3N8Z4Fc2xokgCGsmKaWI3yLw79lDuirUSni1KhdVbgqbSM6w_gYmZH6e3C9TaAwgXwtlw2twAMOECOP5zR-mE6AGQp6eh0Lbyzakx8y7sMrZZWMFIBomRD7blTggdNfp8RNBT_Pkq8mUwfnWcZxeIjzE0tsfJatywH0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 p-8">
+<span class="text-tertiary font-label text-[10px] uppercase tracking-widest mb-2 block">Dự án Chiến lược</span>
+<h4 class="font-headline text-2xl text-on-surface">Tái cấu trúc Hệ thống Đào tạo ĐH Quốc gia</h4>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl h-[400px]">
+<img alt="Book Publication" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Close up of a premium book cover on educational leadership" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjLJg1I6ZL2L9U_BQO6f-Phpg4n-RXgCEFBzUrIqu-6RRVr6W6Hq8xUQyb8jLZ7zEqNTpq6xGBLLXzpUkbYJyfFdbj6gpyzcfy8tGQwzydXt4V5JREYXRFxpL7hiZ2zBMrhfnC9PBsDQJWGMyykczpzRZjHB-XDUfLOybJAIoO37dbUJ2lEmHS-0i3zWsaWzaXp5SVYI42nCNAakFEiDX-uWrCP0hoiBgW0hDkYFZfQyHXiuURITCSBJqOdSReYFImRXEWb7FrXnw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 p-8">
+<span class="text-tertiary font-label text-[10px] uppercase tracking-widest mb-2 block">Ấn phẩm</span>
+<h4 class="font-headline text-2xl text-on-surface">Kỷ yếu Giáo dục 4.0</h4>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl h-[400px]">
+<img alt="Global Summit" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Speaker at a global educational conference stage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbFi8Rv5baMzrEDFZ-giFlFnfeq_ZKuVN5SquIotIMtlD_F-ugAW4NkFRP7wE4dSDV5x1FKK5wC8hXBcfVRmKN1QYmLLb6qQqy3mOyFV4KMPPDOs6AVqKJxJf0XN3MMDJiLqhL8IT2vtjVWTQmklfFVG5nN1kZwuNt7cjXCBvrvPRrw1Q8mnBgdZgNq6Gnc1mkrr5XHyubyPM5IgeQFtoOwhwbPm6D7BONoePw8WAnb0CgTVFQT6Fp6buqgp8kb4TVhZrvrbNkP_0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 p-8">
+<span class="text-tertiary font-label text-[10px] uppercase tracking-widest mb-2 block">Sự kiện</span>
+<h4 class="font-headline text-2xl text-on-surface">Diễn đàn Giáo dục Châu Á</h4>
+</div>
+</div>
+<div class="md:col-span-2 group relative overflow-hidden rounded-2xl h-[400px]">
+<img alt="EdTech Platform" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Digital learning dashboard design on high-end tablet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsAZmf8cL79dhZdvkmrUPvBdyIuDcawmXtdzMLS2944sFCWs5Z8mHY5pTSsZm_yKbXZanri2OtHKUh7oS_XdNrCo4AxPQ1C8gnnGP3o8Ciln0lwD169WHOfuPnfh8xpaWNi48S3UMfv-mFtUAS7sVGwm9m8sakVEsHSegK7dRzQGQSHy8Jk5l84VDxckeciGzksqsKqKaAikcmYAl7rUR-Hre-ohXDA5mTjBUaFZbNn8LJoMXRZfvErfxc1r04qcQ9EUrKT_3-_DY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 p-8">
+<span class="text-tertiary font-label text-[10px] uppercase tracking-widest mb-2 block">EdTech</span>
+<h4 class="font-headline text-2xl text-on-surface">Cố vấn Nền tảng Học tập Trực tuyến X</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Contact -->
+<section class="py-32 relative overflow-hidden" id="contact">
+<div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[150px] -z-10"></div>
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-20">
+<div>
+<h2 class="font-headline text-5xl mb-8">Bắt đầu thảo luận <br/>về <span class="text-primary italic">dự án</span> của bạn</h2>
+<p class="text-on-surface-variant mb-12 text-lg">Tôi luôn sẵn lòng lắng nghe và chia sẻ kinh nghiệm để cùng bạn xây dựng những giá trị giáo dục mới.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span class="font-label text-sm tracking-wide">expert@academicluminary.com</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="font-label text-sm tracking-wide">Hanoi, Vietnam | Global Remote</span>
+</div>
+</div>
+<div class="mt-16 flex gap-6">
+<a class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">language</span>
+</a>
+<a class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">link</span>
+</a>
+<a class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary/10 hover:border-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary">share</span>
+</a>
+</div>
+</div>
+<div class="glass-card p-10 rounded-2xl border border-outline-variant/20">
+<form class="space-y-8">
+<div>
+<label class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant mb-2 block">Họ và Tên</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 py-3 focus:outline-none focus:border-primary transition-all text-on-surface" type="text"/>
+</div>
+<div>
+<label class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant mb-2 block">Email Liên Hệ</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 py-3 focus:outline-none focus:border-primary transition-all text-on-surface" type="email"/>
+</div>
+<div>
+<label class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant mb-2 block">Lời nhắn</label>
+<textarea class="w-full bg-transparent border-b border-outline-variant/30 py-3 focus:outline-none focus:border-primary transition-all text-on-surface resize-none" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-4 rounded-xl font-label text-xs uppercase tracking-[0.2em] font-bold hover:bg-primary-fixed transition-all">Gửi yêu cầu</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-950 w-full py-12 px-8 border-t border-slate-800/30">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="text-lg font-serif text-slate-200">Academic Luminary</div>
+<div class="flex gap-8">
+<a class="text-slate-500 hover:text-cyan-400 font-label text-[10px] uppercase tracking-widest transition-colors" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:text-cyan-400 font-label text-[10px] uppercase tracking-widest transition-colors" href="#">Terms of Service</a>
+<a class="text-slate-500 hover:text-cyan-400 font-label text-[10px] uppercase tracking-widest transition-colors" href="#">Speaker Kit</a>
+</div>
+<p class="text-slate-500 font-body text-[10px] uppercase tracking-widest">© 2024 Academic Luminary. 25 Years of Educational Excellence.</p>
+</div>
+</footer>
+</body></html>
